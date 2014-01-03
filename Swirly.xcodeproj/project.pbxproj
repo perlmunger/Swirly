@@ -21,6 +21,7 @@
 		B31E2BD518765406007C61BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31E2BB718765406007C61BF /* UIKit.framework */; };
 		B31E2BDD18765406007C61BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B31E2BDB18765406007C61BF /* InfoPlist.strings */; };
 		B31E2BDF18765406007C61BF /* SwirlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E2BDE18765406007C61BF /* SwirlyTests.m */; };
+		B31E2BE91876541A007C61BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31E2BE81876541A007C61BF /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B31E2BDA18765406007C61BF /* SwirlyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwirlyTests-Info.plist"; sourceTree = "<group>"; };
 		B31E2BDC18765406007C61BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B31E2BDE18765406007C61BF /* SwirlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwirlyTests.m; sourceTree = "<group>"; };
+		B31E2BE81876541A007C61BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31E2BE91876541A007C61BF /* QuartzCore.framework in Frameworks */,
 				B31E2BB618765406007C61BF /* CoreGraphics.framework in Frameworks */,
 				B31E2BB818765406007C61BF /* UIKit.framework in Frameworks */,
 				B31E2BB418765406007C61BF /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		B31E2BB218765406007C61BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B31E2BE81876541A007C61BF /* QuartzCore.framework */,
 				B31E2BB318765406007C61BF /* Foundation.framework */,
 				B31E2BB518765406007C61BF /* CoreGraphics.framework */,
 				B31E2BB718765406007C61BF /* UIKit.framework */,
